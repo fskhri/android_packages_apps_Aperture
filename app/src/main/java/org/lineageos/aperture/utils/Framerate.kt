@@ -8,10 +8,7 @@ package org.lineageos.aperture.utils
 import android.util.Range
 
 enum class Framerate(val value: Int) {
-    FPS_24(24),
-    FPS_30(30),
     FPS_60(60),
-    FPS_120(120);
 
     val range = Range(value, value)
 
